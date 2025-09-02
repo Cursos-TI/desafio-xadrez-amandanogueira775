@@ -40,6 +40,23 @@ printf("*** Desafio Jogo de xadrez ***\n");
     {
         printf("Esquerda\n");
     }
+
+     //Nível aventureiro
+    //Movimento do cavalo (em 'L')
+    int cavalo = 1;
+
+    printf("\nMovimento do Cavalo em 'L':\n");
+
+    //usando estrutura de repetição for e while aninhado
+    while (cavalo <= 1)
+    {
+        for (int i = 1; i < 3; i++)
+        {
+           printf("Baixo\n");//imprime 'cima' duas vezes
+        }
+        printf("Esquerda\n");//imprime 'esquerda' uma vez
+        cavalo++;
+    }
     
 
     return 0;
